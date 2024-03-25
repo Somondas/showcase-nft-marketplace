@@ -40,7 +40,12 @@ const SectionWrapper = ({
           >
             {description}
           </p>
-          {showBtn && <Button assetUrl={assets.expo} link="" />}
+          {showBtn && (
+            <Button
+              assetUrl={assets.expo}
+              link="exp://u.expo.dev/update/236b82f6-e59e-42e9-b3ad-c8b9fcc3e0c3"
+            />
+          )}
         </div>
         <div className={`${styles.flexCenter} p-8 sm:px-0 flex-1`}>
           <img
