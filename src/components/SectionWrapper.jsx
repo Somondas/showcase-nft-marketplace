@@ -43,7 +43,13 @@ const SectionWrapper = ({
           {showBtn && <Button assetUrl={assets.expo} link="" />}
         </div>
         <div className={`${styles.flexCenter} p-8 sm:px-0 flex-1`}>
-          <img src={mockupImg} alt="mockup" />
+          <img
+            className={`${reverse ? styles.blackText : styles.whiteText} ${
+              styles.sectionImg
+            }`}
+            src={mockupImg}
+            alt="mockup"
+          />
         </div>
       </div>
     </div>
