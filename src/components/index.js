@@ -1,5 +1,5 @@
-import Download from "./components/Download";
-import SectionWrapper from "./components/SectionWrapper";
-import Features from "./components/Features";
+import Download from "./Download";
+import SectionWrapper from "./SectionWrapper";
+import Features from "./Features";
 
 export { Download, SectionWrapper, Features };
